@@ -11,8 +11,8 @@
 		2B5E87480F19AE669073453D926501CF /* Pods-Handyman_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8922C6E45414AD2FA96F679E63E228A3 /* Pods-Handyman_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CCB6D1BFEB18DE68AE0BD4CD71A1B84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		4E8EB083BA838C6EA8565C9EA6942803 /* Handyman-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B257535F2D06877E3CEC0EF75B61759C /* Handyman-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8481A98422114CEB00132379 /* Handyman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481A98122114CEA00132379 /* Handyman.swift */; };
-		8481A98622114CEB00132379 /* OperationMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481A98322114CEA00132379 /* OperationMgr.swift */; };
+		678458352211DC2000D43675 /* Handyman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678458332211DC2000D43675 /* Handyman.swift */; };
+		678458362211DC2000D43675 /* OperationMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678458342211DC2000D43675 /* OperationMgr.swift */; };
 		9B3442C481266580BE273E06C0C18713 /* Pods-Handyman_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5228F0A6330E3908919940BB6F077C /* Pods-Handyman_Tests-dummy.m */; };
 		BC9C92C60EBC0F468161AA340DE7BF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		CB6E2ECCB52064D8F5C6E778ABC47120 /* Pods-Handyman_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCC43752DF19F8EED86CE78D32B59D7 /* Pods-Handyman_Example-dummy.m */; };
@@ -48,10 +48,10 @@
 		5A9F49F88549DC4608B33B60BCC02A26 /* Pods-Handyman_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Handyman_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5B73857C920DAF8F5BA2335F5ED5ADA1 /* Pods-Handyman_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Handyman_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		62F33580BFAC01A0D9B5978DE6D9DFD9 /* Handyman.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Handyman.xcconfig; sourceTree = "<group>"; };
+		678458332211DC2000D43675 /* Handyman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handyman.swift; sourceTree = "<group>"; };
+		678458342211DC2000D43675 /* OperationMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationMgr.swift; sourceTree = "<group>"; };
 		67E9FBBF588C0007351379817D730A7C /* Handyman.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Handyman.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7FCC43752DF19F8EED86CE78D32B59D7 /* Pods-Handyman_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Handyman_Example-dummy.m"; sourceTree = "<group>"; };
-		8481A98122114CEA00132379 /* Handyman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handyman.swift; sourceTree = "<group>"; };
-		8481A98322114CEA00132379 /* OperationMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationMgr.swift; sourceTree = "<group>"; };
 		866E02EF8317CC986AB2513530DF6847 /* Pods-Handyman_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Handyman_Example.modulemap"; sourceTree = "<group>"; };
 		8922C6E45414AD2FA96F679E63E228A3 /* Pods-Handyman_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Handyman_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9C5228F0A6330E3908919940BB6F077C /* Pods-Handyman_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Handyman_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -117,17 +117,6 @@
 			path = "Target Support Files/Pods-Handyman_Tests";
 			sourceTree = "<group>";
 		};
-		332BCCEF86F31CB2D6143DF448187FDC /* Handyman */ = {
-			isa = PBXGroup;
-			children = (
-				8481A98022114CEA00132379 /* Classes */,
-				AEF2FE8981C02F2DB28C72CE1B1260D7 /* Pod */,
-				CB5111C13141E2F44816D31D0DDCC3D7 /* Support Files */,
-			);
-			name = Handyman;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		3A860A0CA0B9ECB936941149C67912B9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,19 +139,21 @@
 		662A1095246957E98371658B8F221257 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				332BCCEF86F31CB2D6143DF448187FDC /* Handyman */,
+				678458322211DC2000D43675 /* Source */,
+				AEF2FE8981C02F2DB28C72CE1B1260D7 /* Pod */,
+				CB5111C13141E2F44816D31D0DDCC3D7 /* Support Files */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8481A98022114CEA00132379 /* Classes */ = {
+		678458322211DC2000D43675 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				8481A98122114CEA00132379 /* Handyman.swift */,
-				8481A98322114CEA00132379 /* OperationMgr.swift */,
+				678458332211DC2000D43675 /* Handyman.swift */,
+				678458342211DC2000D43675 /* OperationMgr.swift */,
 			);
-			name = Classes;
-			path = Handyman/Classes;
+			name = Source;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -198,6 +189,7 @@
 				1C44DBD093EB54E837B1B3F9F7E5DCF5 /* README.md */,
 			);
 			name = Pod;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CB5111C13141E2F44816D31D0DDCC3D7 /* Support Files */ = {
@@ -211,7 +203,7 @@
 				B257535F2D06877E3CEC0EF75B61759C /* Handyman-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Handyman";
+			path = Handyman;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -397,9 +389,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8481A98622114CEB00132379 /* OperationMgr.swift in Sources */,
-				8481A98422114CEB00132379 /* Handyman.swift in Sources */,
 				EDC27A7C0645F8AB506E590EDCE5B3B0 /* Handyman-dummy.m in Sources */,
+				678458362211DC2000D43675 /* OperationMgr.swift in Sources */,
+				678458352211DC2000D43675 /* Handyman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

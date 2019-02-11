@@ -1,6 +1,0 @@
-framework module Handyman {
-  umbrella header "Handyman-umbrella.h"
-
-  export *
-  module * { export * }
-}
