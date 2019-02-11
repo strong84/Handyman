@@ -8,5 +8,5 @@
 import UIKit
 
 public final class Handyman {
-    static let operationMgr = OperationMgr.shared
+    public static let operationMgr = OperationMgr.shared
 }

@@ -9,7 +9,7 @@ import UIKit
 
 public final class OperationMgr {
     
-    static let shared = OperationMgr()
+    public static let shared = OperationMgr()
     
     private var queue = [Operation]()
     
