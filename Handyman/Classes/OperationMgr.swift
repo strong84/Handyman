@@ -17,7 +17,9 @@ public final class OperationMgr {
         
         let op = Operation()
         op.completionBlock = {
-            block(OperationMgr.shared)
+            DispatchQueue.main.async {
+                block(OperationMgr.shared)
+            }
         }
         
         queue.append(op)
