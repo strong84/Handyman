@@ -1,0 +1,22 @@
+{
+  "name": "Handyman",
+  "version": "0.1.0",
+  "summary": "A short description of Handyman.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/james.sc.0823@gmail.com/Handyman",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "james.sc.0823@gmail.com": "james.sc.0823@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/james.sc.0823@gmail.com/Handyman.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Handyman/Classes/**/*"
+}

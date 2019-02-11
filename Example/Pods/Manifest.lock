@@ -1,0 +1,16 @@
+PODS:
+  - Handyman (0.1.0)
+
+DEPENDENCIES:
+  - Handyman (from `../`)
+
+EXTERNAL SOURCES:
+  Handyman:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Handyman: 7fbb1988b36d392ce240be5ed2616ebbe81a0fd5
+
+PODFILE CHECKSUM: c5b04559f31ae721d0ac888b118e731da18006e0
+
+COCOAPODS: 1.6.0

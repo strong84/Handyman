@@ -1,0 +1,6 @@
+framework module Pods_Handyman_Tests {
+  umbrella header "Pods-Handyman_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
