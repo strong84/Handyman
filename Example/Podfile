@@ -1,11 +1,9 @@
+platform :ios, '10.0'
+
 use_frameworks!
+inhibit_all_warnings!
 
 target 'Handyman_Example' do
   pod 'Handyman', :path => '../'
 
-  target 'Handyman_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## Handyman
 
-Copyright (c) 2019 james.sc.0823@gmail.com <james.sc.0823@gmail.com>
+Copyright (c) 2019 Handyman
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
